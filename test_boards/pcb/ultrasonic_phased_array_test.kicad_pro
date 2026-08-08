@@ -1,0 +1,559 @@
+{
+  "board": {
+    "3dviewports": [],
+    "ipc2581": {
+      "bom_rev": "",
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": "",
+      "sch_revision": "1.0"
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "field_name_whitespace": "warning",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "ground_pin_not_ground": "warning",
+      "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "ultrasonic_phased_array_test.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 5
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "specctra_dsn": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
+    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": true,
+      "name": "Default Editing",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "bus_aliases": {},
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "hop_over_size_choice": 0,
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "reuse_designators": true,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "ultrasonic_phased_array_test.kicad_sch",
+        "name": "Root",
+        "uuid": "ce178b1f-92b9-41c6-bd69-904e3992cd65"
+      }
+    ],
+    "used_designators": "J1,R1-33,D1-24,C1-132,U1-40,Q1-48,#PWR1-279,LS1-30",
+    "variants": []
+  },
+  "sheets": [
+    [
+      "ce178b1f-92b9-41c6-bd69-904e3992cd65",
+      "Root"
+    ],
+    [
+      "480f5a8e-d708-4d69-9949-4aef67ec0738",
+      "Transducer Tx 1"
+    ],
+    [
+      "36cd61df-802a-499e-8402-bec27221cc97",
+      "Transducer Tx 2"
+    ],
+    [
+      "309cd792-b8ae-4df3-9cae-21f0b1fcbe46",
+      "Transducer Tx 3"
+    ],
+    [
+      "ca3d31e5-fadc-427c-a898-e558300f18bd",
+      "Transducer Tx 4"
+    ],
+    [
+      "89320b2a-e018-4c2c-acd4-8ea363929283",
+      "Transducer Tx 5"
+    ],
+    [
+      "250a332d-b188-4cb7-8995-d26ce835b8f8",
+      "Transducer Tx 6"
+    ],
+    [
+      "1a5eb068-d1dc-4d74-9cf1-b32a7c9e70c5",
+      "Transducer Tx 7"
+    ],
+    [
+      "8a377f6f-128b-4b5f-ace6-77e240b50c21",
+      "Transducer Tx 8"
+    ],
+    [
+      "e950f202-7178-4b6d-8e63-ef3e469294aa",
+      "Transducer Tx 9"
+    ],
+    [
+      "ff33492a-e054-4931-bab9-bb19b684453b",
+      "Transducer Tx 10"
+    ],
+    [
+      "7f768895-4c49-45db-894d-c9cf4eb3b2e4",
+      "Transducer Tx 11"
+    ],
+    [
+      "31732dc1-2899-4ea5-ba5b-fb0ba4384d88",
+      "Transducer Tx 12"
+    ],
+    [
+      "8cb24a42-224d-4ed4-9522-15eb3433940d",
+      "Transducer Tx 13"
+    ],
+    [
+      "df4cb036-d18e-413a-a3e6-d13ab0408350",
+      "Transducer Tx 14"
+    ],
+    [
+      "91659185-c386-4e8b-bc53-4d45396aa0c8",
+      "Transducer Tx 15"
+    ],
+    [
+      "8d87f40a-a54f-4c59-9616-36f2a0ac8838",
+      "Transducer Tx 16"
+    ],
+    [
+      "5dafd47e-534c-4ff2-8e03-540c80e837ca",
+      "Transducer Tx 17"
+    ],
+    [
+      "4c1b583f-c035-4d8a-8326-d7a495631c4b",
+      "Transducer Tx 18"
+    ],
+    [
+      "e5ee5ce9-d125-4442-a941-ebf38866bdb4",
+      "Transducer Tx 19"
+    ],
+    [
+      "17e690e6-bc04-4ef1-8907-51cdd183346e",
+      "Transducer Tx 20"
+    ],
+    [
+      "b3fda7ce-1fc5-425a-8ccd-92f8139a987a",
+      "Transducer Tx 21"
+    ],
+    [
+      "c1fdafa5-b957-4e7f-86c8-b085850f6e7f",
+      "Transducer Tx 22"
+    ],
+    [
+      "d604a55d-7315-46ed-a5e1-a21ab4cf1ed4",
+      "Transducer Tx 23"
+    ],
+    [
+      "a483e0c5-cbda-44e7-9e23-64cb97d25fda",
+      "Transducer Tx 24"
+    ],
+    [
+      "76d89e66-ee64-4d38-8c69-d5f7600b2b05",
+      "Transducer Rx 1"
+    ],
+    [
+      "5eb6f19e-ddf1-40cf-8e8b-c173a1f779a3",
+      "Transducer Rx 2"
+    ],
+    [
+      "df0578fe-b761-4f60-b85d-03d7106ec168",
+      "Transducer Rx 3"
+    ],
+    [
+      "f84c1c03-594a-4b1b-bc4e-35f06ecd4337",
+      "Transducer Rx 4"
+    ],
+    [
+      "1f1276d4-1925-4c29-95cc-e97900490760",
+      "Transducer Rx 5"
+    ],
+    [
+      "4e115195-04d9-4402-8681-553d5ea785a0",
+      "Transducer Rx 6"
+    ],
+    [
+      "3f09ed71-fff5-410d-863d-e4744c1ec4ff",
+      "Power & Regulators"
+    ]
+  ],
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
+}
