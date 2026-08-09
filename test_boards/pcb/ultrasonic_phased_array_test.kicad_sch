@@ -8625,7 +8625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07d30305-a022-4aed-99ee-ae1f747a33d9")
-		(property "Reference" "#PWR0276"
+		(property "Reference" "#PWR018"
 			(at 224.79 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -8685,7 +8685,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0276")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8703,7 +8703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "176b5f3e-44fe-459d-889c-f30e125f7e26")
-		(property "Reference" "U16"
+		(property "Reference" "U2"
 			(at 152.4 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8818,7 +8818,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "U16")
+					(reference "U2")
 					(unit 3)
 				)
 			)
@@ -8835,7 +8835,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1858fd0a-3b7a-4eba-9f03-a453cb7dd79e")
-		(property "Reference" "R31"
+		(property "Reference" "R1"
 			(at 143.51 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8930,7 +8930,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "R31")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8948,7 +8948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32c75758-fa31-4ce5-819d-ff419295d551")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR05"
 			(at 151.13 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9008,7 +9008,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0108")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9026,7 +9026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3336c191-436c-4f4e-a0c7-62583b899ed8")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 85.09 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9139,7 +9139,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9157,7 +9157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34dd8b70-f050-46b4-b90b-1119495b9c4b")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR08"
 			(at 177.8 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9217,7 +9217,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0103")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9234,7 +9234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35bb86f8-25ad-4fa7-9fb9-8cfc47e0ce41")
-		(property "Reference" "C60"
+		(property "Reference" "C5"
 			(at 128.524 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9331,7 +9331,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "C60")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9349,7 +9349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a189d34-f583-4232-84be-060baec0baab")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 139.7 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9464,7 +9464,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "U4")
+					(reference "U1")
 					(unit 3)
 				)
 			)
@@ -9482,7 +9482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a334ad4-a849-4ded-8d22-45cc6ec04ac8")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR07"
 			(at 137.16 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9542,7 +9542,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR025")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9560,7 +9560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d23c818-1ae1-4e6e-8606-d8130ce071a9")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR01"
 			(at 138.43 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9620,7 +9620,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0106")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -9638,7 +9638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5081e8bf-f3cd-4dc5-8f95-f0d72c813830")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR09"
 			(at 137.16 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9698,7 +9698,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0100")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9716,7 +9716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55769345-b7a3-4952-b31d-482165f6633c")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR02"
 			(at 151.13 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9776,7 +9776,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0107")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9794,7 +9794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f0aa6b0-5ffb-41ff-bdd7-87728f1c9f6a")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR011"
 			(at 165.1 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9854,7 +9854,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0104")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9871,7 +9871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f316ef3-80fe-4775-adb8-69ec1c8e6d6c")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 169.672 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10025,7 +10025,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -10043,7 +10043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63128062-98b4-4e6f-b514-ac30a415f39a")
-		(property "Reference" "C62"
+		(property "Reference" "C4"
 			(at 181.61 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10140,7 +10140,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "C62")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10158,7 +10158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d23503f-692b-48f7-b366-149a4c03f2a2")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR014"
 			(at 158.75 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -10218,7 +10218,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR026")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10236,7 +10236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70f273d0-97e0-4640-88bb-1caf4b6c3846")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 85.09 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10349,7 +10349,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "U4")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -10367,7 +10367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7584dabe-5148-4167-bf49-1b9ebe9b7235")
-		(property "Reference" "#PWR0275"
+		(property "Reference" "#PWR017"
 			(at 204.47 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -10427,7 +10427,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0275")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10445,7 +10445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8047ce75-67f8-437c-ad0b-9d1176037627")
-		(property "Reference" "C63"
+		(property "Reference" "C6"
 			(at 147.32 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10542,7 +10542,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "C63")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10560,7 +10560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a069fc1e-f399-4d4b-a403-bc2a8afbd70a")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR04"
 			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10620,7 +10620,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0101")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10638,7 +10638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b02d45cd-cd6e-4306-ac0c-7c66e47ed8cb")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR013"
 			(at 133.35 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -10698,7 +10698,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR099")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10716,7 +10716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b22a94ef-a94a-417f-8d1e-26d78315adca")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR015"
 			(at 137.16 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -10776,7 +10776,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0111")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10794,7 +10794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4cf1572-237e-4048-b665-843183ea8a9b")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR012"
 			(at 177.8 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -10854,7 +10854,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0105")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10871,7 +10871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b518e5c8-dc1a-4a25-9ab0-cdd51d2cfd3f")
-		(property "Reference" "C59"
+		(property "Reference" "C2"
 			(at 141.224 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10968,7 +10968,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "C59")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10986,7 +10986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba1467a7-4831-4854-922e-2011b18ec789")
-		(property "Reference" "C61"
+		(property "Reference" "C3"
 			(at 168.91 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11083,7 +11083,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "C61")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11101,7 +11101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb905d85-ae14-4df2-b39b-98f78aab2af3")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR06"
 			(at 163.83 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11161,7 +11161,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0110")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11179,7 +11179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceaf79d3-8267-4738-bb81-80cafbf76752")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR016"
 			(at 143.51 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -11239,7 +11239,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0112")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11256,7 +11256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e096abf3-0101-4381-823c-5487f8050483")
-		(property "Reference" "U16"
+		(property "Reference" "U2"
 			(at 85.09 131.064 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11369,7 +11369,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "U16")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -11386,7 +11386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2ea6731-b77b-4a2e-a46a-7f5c5ad398c4")
-		(property "Reference" "C58"
+		(property "Reference" "C1"
 			(at 128.524 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11483,7 +11483,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "C58")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -11501,7 +11501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4303fc1-f15d-4e75-a772-c41a8e6ec4fc")
-		(property "Reference" "U17"
+		(property "Reference" "U3"
 			(at 165.1 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11616,7 +11616,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "U17")
+					(reference "U3")
 					(unit 3)
 				)
 			)
@@ -11634,7 +11634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e72357a4-ea5d-4bfc-a4fd-e0885d20ff3f")
-		(property "Reference" "U16"
+		(property "Reference" "U2"
 			(at 85.09 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11747,7 +11747,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "U16")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -11765,7 +11765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea38f023-5e34-45a0-b1e6-99e412d8c9b2")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR010"
 			(at 149.86 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11825,7 +11825,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0102")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11843,7 +11843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec2d166f-b670-4ca7-a564-969ef49e4b80")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR03"
 			(at 163.83 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11903,7 +11903,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "#PWR0109")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12268,7 +12268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "effee563-9329-472f-8eea-4df51effecef")
-		(property "Reference" "U17"
+		(property "Reference" "U3"
 			(at 85.09 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12381,7 +12381,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "U17")
+					(reference "U3")
 					(unit 2)
 				)
 			)
@@ -12399,7 +12399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff8f2163-37f7-459e-890d-f0b60d0698e1")
-		(property "Reference" "U17"
+		(property "Reference" "U3"
 			(at 85.09 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12512,7 +12512,7 @@
 		(instances
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
-					(reference "U17")
+					(reference "U3")
 					(unit 1)
 				)
 			)
