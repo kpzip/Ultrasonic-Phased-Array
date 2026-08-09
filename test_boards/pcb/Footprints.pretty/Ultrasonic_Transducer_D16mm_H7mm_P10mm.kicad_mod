@@ -1,0 +1,163 @@
+(footprint "Ultrasonic_Transducer_D16mm_H7mm_P10mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Generic Ultrasonic Transducer, D16mm height 12mm with pitch 10mm")
+	(tags "ultrasonic transducer")
+	(property "Reference" "REF**"
+		(at 5.16 -9 0)
+		(layer "F.SilkS")
+		(uuid "6001ad46-a3d8-4684-8675-5d760d277889")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Ultrasonic_Transducer_D16mm_H12mm_P10mm"
+		(at 4.69 8.41 0)
+		(layer "F.Fab")
+		(uuid "b29f884c-9bd3-48a8-9978-3059e65e2bb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf12e4ff-1558-49b5-97f7-a0bd583c5e65")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30542786-2d5c-4635-bb85-1640582fdd70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 5 0)
+		(end 13.1 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "235e5186-7717-44d8-8ccc-ee0efbbeba12")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 13.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fd69aed0-8621-48c1-9664-26db5b61ffd2")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6e218b7a-bad1-47ce-819a-43f245d92fd2")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 13 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e61e8a98-8b51-479b-87bb-c70bced9844d")
+	)
+	(fp_text user "+"
+		(at -0.01 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "1932783a-a733-43e8-9ea7-dd292d297877")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -0.01 -2.54 0)
+		(layer "F.Fab")
+		(uuid "a62e195e-4ba9-4031-9f11-e4efe0ebb68c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.32 2.27 0)
+		(layer "F.Fab")
+		(uuid "b5ea76a4-2948-4e19-96be-40aa68015217")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b1ed7731-114e-4ecd-b505-4041a6b94f6b")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "766e0bfb-58ea-4d9e-99ca-97ef776082cf")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_D14mm_H7mm_P10mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
