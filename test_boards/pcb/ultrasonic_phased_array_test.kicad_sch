@@ -3931,15 +3931,15 @@
 		)
 		(uuid "0c2accff-ee72-4c78-aad9-e19ccb94bf8f")
 	)
-	(text "TODO Reference"
+	(text "TODO 140V trace spacing"
 		(exclude_from_sim no)
-		(at 160.02 188.468 0)
+		(at 209.804 85.852 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "9d1b0c3e-b339-4988-955e-e57d4e8f854b")
+		(uuid "1cabc019-befc-4c89-af94-c089f85040d9")
 	)
 	(junction
 		(at 224.79 198.12)
@@ -4132,12 +4132,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8aa1640-3c4a-4bd3-a527-c4f2244c3f5d")
-	)
-	(junction
-		(at 143.51 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb1221ff-2d23-4520-89c0-ba5f9f4c7e6b")
 	)
 	(junction
 		(at 224.79 144.78)
@@ -5155,7 +5149,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 184.15) (xy 261.62 184.15)
+			(xy 248.92 184.15) (xy 262.89 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5165,13 +5159,23 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 186.69) (xy 261.62 186.69)
+			(xy 248.92 186.69) (xy 262.89 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b527a72-2f6f-4471-8b45-a9d618b28373")
+	)
+	(wire
+		(pts
+			(xy 151.13 36.83) (xy 151.13 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce326d9-0e15-4f4e-9871-f5de72eeaf96")
 	)
 	(wire
 		(pts
@@ -5235,7 +5239,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 97.79) (xy 261.62 97.79)
+			(xy 248.92 97.79) (xy 262.89 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5245,7 +5249,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 133.35) (xy 261.62 133.35)
+			(xy 248.92 133.35) (xy 262.89 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5255,7 +5259,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 186.69) (xy 375.92 186.69)
+			(xy 363.22 186.69) (xy 377.19 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5315,7 +5319,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 184.15) (xy 318.77 184.15)
+			(xy 306.07 184.15) (xy 320.04 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5325,7 +5329,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 120.65) (xy 318.77 120.65)
+			(xy 306.07 120.65) (xy 320.04 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5335,7 +5339,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 123.19) (xy 375.92 123.19)
+			(xy 363.22 123.19) (xy 377.19 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5365,7 +5369,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 135.89) (xy 318.77 135.89)
+			(xy 306.07 135.89) (xy 320.04 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5435,7 +5439,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 110.49) (xy 261.62 110.49)
+			(xy 248.92 110.49) (xy 262.89 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5525,7 +5529,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 148.59) (xy 318.77 148.59)
+			(xy 306.07 148.59) (xy 320.04 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5565,7 +5569,17 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 148.59) (xy 261.62 148.59)
+			(xy 138.43 36.83) (xy 138.43 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3408ece0-1fb7-4db5-a4cb-b982c0bb9c2c")
+	)
+	(wire
+		(pts
+			(xy 248.92 148.59) (xy 262.89 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5595,7 +5609,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 158.75) (xy 318.77 158.75)
+			(xy 306.07 158.75) (xy 320.04 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5665,7 +5679,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 110.49) (xy 375.92 110.49)
+			(xy 363.22 110.49) (xy 377.19 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5735,7 +5749,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 97.79) (xy 375.92 97.79)
+			(xy 363.22 97.79) (xy 377.19 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5785,6 +5799,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 26.67) (xy 151.13 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5dc4d3-be3f-474a-b5ef-ab3c1699ca94")
+	)
+	(wire
+		(pts
 			(xy 224.79 129.54) (xy 224.79 137.16)
 		)
 		(stroke
@@ -5802,6 +5826,16 @@
 			(type default)
 		)
 		(uuid "4de927be-9d9b-4deb-b9d0-b820010e42a1")
+	)
+	(wire
+		(pts
+			(xy 163.83 26.67) (xy 163.83 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1505eb-a946-4147-a2a0-8719a52849fc")
 	)
 	(wire
 		(pts
@@ -5915,7 +5949,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 146.05) (xy 261.62 146.05)
+			(xy 248.92 146.05) (xy 262.89 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5925,7 +5959,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 184.15) (xy 375.92 184.15)
+			(xy 363.22 184.15) (xy 377.19 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6055,7 +6089,17 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 173.99) (xy 375.92 173.99)
+			(xy 163.83 36.83) (xy 163.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b420a3f-2b6c-4f03-a4e3-39878fdd522f")
+	)
+	(wire
+		(pts
+			(xy 363.22 173.99) (xy 377.19 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6075,7 +6119,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 148.59) (xy 375.92 148.59)
+			(xy 363.22 148.59) (xy 377.19 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6115,7 +6159,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 171.45) (xy 261.62 171.45)
+			(xy 248.92 171.45) (xy 262.89 171.45)
 		)
 		(stroke
 			(width 0)
@@ -6125,7 +6169,17 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 133.35) (xy 318.77 133.35)
+			(xy 138.43 26.67) (xy 138.43 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74059a8c-65a8-43f8-aa06-37ed68100189")
+	)
+	(wire
+		(pts
+			(xy 306.07 133.35) (xy 320.04 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6175,7 +6229,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 95.25) (xy 375.92 95.25)
+			(xy 363.22 95.25) (xy 377.19 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6245,7 +6299,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 110.49) (xy 318.77 110.49)
+			(xy 306.07 110.49) (xy 320.04 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6255,7 +6309,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 107.95) (xy 261.62 107.95)
+			(xy 248.92 107.95) (xy 262.89 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6265,7 +6319,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 123.19) (xy 318.77 123.19)
+			(xy 306.07 123.19) (xy 320.04 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6315,7 +6369,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 158.75) (xy 261.62 158.75)
+			(xy 248.92 158.75) (xy 262.89 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6335,7 +6389,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 171.45) (xy 375.92 171.45)
+			(xy 363.22 171.45) (xy 377.19 171.45)
 		)
 		(stroke
 			(width 0)
@@ -6505,7 +6559,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 135.89) (xy 375.92 135.89)
+			(xy 363.22 135.89) (xy 377.19 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6535,7 +6589,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 186.69) (xy 318.77 186.69)
+			(xy 306.07 186.69) (xy 320.04 186.69)
 		)
 		(stroke
 			(width 0)
@@ -6645,7 +6699,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 123.19) (xy 261.62 123.19)
+			(xy 248.92 123.19) (xy 262.89 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6675,7 +6729,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 97.79) (xy 318.77 97.79)
+			(xy 306.07 97.79) (xy 320.04 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6715,7 +6769,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 107.95) (xy 375.92 107.95)
+			(xy 363.22 107.95) (xy 377.19 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6735,7 +6789,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 120.65) (xy 375.92 120.65)
+			(xy 363.22 120.65) (xy 377.19 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6755,7 +6809,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 161.29) (xy 261.62 161.29)
+			(xy 248.92 161.29) (xy 262.89 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6805,7 +6859,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 161.29) (xy 318.77 161.29)
+			(xy 306.07 161.29) (xy 320.04 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6815,7 +6869,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 158.75) (xy 375.92 158.75)
+			(xy 363.22 158.75) (xy 377.19 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6865,7 +6919,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 171.45) (xy 318.77 171.45)
+			(xy 306.07 171.45) (xy 320.04 171.45)
 		)
 		(stroke
 			(width 0)
@@ -6915,7 +6969,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 120.65) (xy 261.62 120.65)
+			(xy 248.92 120.65) (xy 262.89 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7015,7 +7069,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 133.35) (xy 375.92 133.35)
+			(xy 363.22 133.35) (xy 377.19 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7125,7 +7179,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 173.99) (xy 261.62 173.99)
+			(xy 248.92 173.99) (xy 262.89 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7155,7 +7209,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 161.29) (xy 375.92 161.29)
+			(xy 363.22 161.29) (xy 377.19 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7185,7 +7239,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 146.05) (xy 375.92 146.05)
+			(xy 363.22 146.05) (xy 377.19 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7195,7 +7249,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 95.25) (xy 261.62 95.25)
+			(xy 248.92 95.25) (xy 262.89 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7235,7 +7289,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 146.05) (xy 318.77 146.05)
+			(xy 306.07 146.05) (xy 320.04 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7335,7 +7389,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 135.89) (xy 261.62 135.89)
+			(xy 248.92 135.89) (xy 262.89 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7375,7 +7429,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 173.99) (xy 318.77 173.99)
+			(xy 306.07 173.99) (xy 320.04 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7405,16 +7459,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 152.4) (xy 143.51 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f283572e-9373-4029-9d33-99328ca4eeeb")
-	)
-	(wire
-		(pts
 			(xy 74.93 163.83) (xy 74.93 168.91)
 		)
 		(stroke
@@ -7425,7 +7469,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 107.95) (xy 318.77 107.95)
+			(xy 306.07 107.95) (xy 320.04 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7485,7 +7529,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 95.25) (xy 318.77 95.25)
+			(xy 306.07 95.25) (xy 320.04 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8213,16 +8257,6 @@
 		)
 		(uuid "91d851a9-3201-4a85-90be-7ac7b04619cd")
 	)
-	(label "REFIN"
-		(at 139.7 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95f7071a-f220-460d-96cb-9f2d31ee596e")
-	)
 	(label "TX16_HIN"
 		(at 248.92 184.15 0)
 		(effects
@@ -8442,16 +8476,6 @@
 			(justify left bottom)
 		)
 		(uuid "e9021ea1-394b-4b2c-8592-fbec42bf063a")
-	)
-	(label "REFIN"
-		(at 165.1 193.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e9761f6c-3b7d-4d13-9670-2ecec41075ef")
 	)
 	(label "TX22_~{LIN}"
 		(at 193.04 119.38 0)
@@ -8692,6 +8716,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 163.83 33.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ff9c2a2-918d-49cd-a0d4-4a3631df656d")
+		(property "Reference" "C135"
+			(at 167.64 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 167.64 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 162.8648 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 163.83 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 163.83 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 163.83 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 163.83 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8c854d9-ad7f-49ce-b953-03ce529506c3")
+		)
+		(pin "2"
+			(uuid "df8929ef-c002-411e-952f-6782a69de637")
+		)
+		(instances
+			(project "ultrasonic_phased_array_test"
+				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
+					(reference "C135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:OPA2626")
 		(at 151.13 63.5 0)
 		(unit 3)
@@ -8855,7 +8994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 143.256 100.076 90)
 			(hide yes)
 			(show_name no)
@@ -8931,6 +9070,199 @@
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1864e67d-ce5d-48da-8a5b-ad543c70ad0c")
+		(property "Reference" "#PWR0282"
+			(at 163.83 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdc9e10e-6ac3-40a2-a9a8-a4169d0f22c2")
+		)
+		(instances
+			(project "ultrasonic_phased_array_test"
+				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
+					(reference "#PWR0282")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 138.43 33.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "318a6c2d-175a-425a-8fb1-27ec26058c36")
+		(property "Reference" "C133"
+			(at 142.24 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 142.24 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 137.4648 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 138.43 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 138.43 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 138.43 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 138.43 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60238e92-0114-45d0-9166-2d3793ebec38")
+		)
+		(pin "2"
+			(uuid "ead12aa5-7054-4ed0-8ff7-3c066dac64ba")
+		)
+		(instances
+			(project "ultrasonic_phased_array_test"
+				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
+					(reference "C133")
 					(unit 1)
 				)
 			)
@@ -9550,6 +9882,84 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 138.43 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ce31d08-526f-4dcb-926d-5db32e4d27a6")
+		(property "Reference" "#PWR0278"
+			(at 138.43 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 138.43 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 138.43 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b743c35-2bec-4854-a154-e9e42d80db39")
+		)
+		(instances
+			(project "ultrasonic_phased_array_test"
+				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
+					(reference "#PWR0278")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 138.43 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -9706,6 +10116,84 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 163.83 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55132302-ec52-48b0-ab7c-22237b2d5972")
+		(property "Reference" "#PWR0281"
+			(at 163.83 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 163.83 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 163.83 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93972c19-beb6-4f1b-8d80-5722ef7ae1e8")
+		)
+		(instances
+			(project "ultrasonic_phased_array_test"
+				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
+					(reference "#PWR0281")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 151.13 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -9777,6 +10265,162 @@
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 151.13 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d34e19a-12aa-4dea-8650-c84e0d6e8b1e")
+		(property "Reference" "#PWR0279"
+			(at 151.13 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 151.13 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 151.13 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42808f37-4eb5-4ceb-a1d5-5a387556f6ea")
+		)
+		(instances
+			(project "ultrasonic_phased_array_test"
+				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
+					(reference "#PWR0279")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d5e0917-c90b-4197-92f7-a0291e67f632")
+		(property "Reference" "#PWR0277"
+			(at 138.43 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fde237d7-32d0-4ebe-85fa-0a60fa9576b7")
+		)
+		(instances
+			(project "ultrasonic_phased_array_test"
+				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
+					(reference "#PWR0277")
 					(unit 1)
 				)
 			)
@@ -10065,7 +10709,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.8348 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10467,7 +11111,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 142.5448 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10549,6 +11193,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 151.13 33.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d654dc6-5d45-4e26-b12c-1d106c2589df")
+		(property "Reference" "C134"
+			(at 154.94 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 154.94 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 150.1648 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 151.13 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 151.13 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 151.13 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 151.13 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24a8d30d-cea1-4a5e-9901-026df962b4af")
+		)
+		(pin "2"
+			(uuid "37a7f7b1-e136-4260-aeb1-f62e9898fe3f")
+		)
+		(instances
+			(project "ultrasonic_phased_array_test"
+				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
+					(reference "C134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 138.43 73.66 0)
 		(unit 1)
@@ -10621,6 +11380,84 @@
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4981902-6a4e-4077-b212-355d330da144")
+		(property "Reference" "#PWR0280"
+			(at 151.13 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e48f98d7-cfab-4d7b-9cee-758d2997ead8")
+		)
+		(instances
+			(project "ultrasonic_phased_array_test"
+				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65"
+					(reference "#PWR0280")
 					(unit 1)
 				)
 			)
@@ -11008,7 +11845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 164.1348 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11941,7 +12778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Hirose_DF40:Hirose_DF40C-80DP-0.4V_2x40-1MP_P0.4mm"
 			(at 213.36 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12519,7 +13356,7 @@
 		)
 	)
 	(sheet
-		(at 318.77 181.61)
+		(at 320.04 181.61)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12535,7 +13372,7 @@
 		)
 		(uuid "17e690e6-bc04-4ef1-8907-51cdd183346e")
 		(property "Sheetname" "Transducer Tx 20"
-			(at 318.77 180.8984 0)
+			(at 320.04 180.8984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12546,7 +13383,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 318.77 189.8146 0)
+			(at 320.04 189.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12557,7 +13394,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 318.77 184.15 180)
+			(at 320.04 184.15 180)
 			(uuid "679bbab2-1262-47dc-9c6d-7eee420e4dc4")
 			(effects
 				(font
@@ -12567,7 +13404,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 318.77 186.69 180)
+			(at 320.04 186.69 180)
 			(uuid "b0607378-209f-4826-b756-8f89ca4097ed")
 			(effects
 				(font
@@ -12585,7 +13422,7 @@
 		)
 	)
 	(sheet
-		(at 318.77 118.11)
+		(at 320.04 118.11)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12601,7 +13438,7 @@
 		)
 		(uuid "1a5eb068-d1dc-4d74-9cf1-b32a7c9e70c5")
 		(property "Sheetname" "Transducer Tx 7"
-			(at 318.77 117.3984 0)
+			(at 320.04 117.3984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12612,7 +13449,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 318.77 126.3146 0)
+			(at 320.04 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12623,7 +13460,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 318.77 120.65 180)
+			(at 320.04 120.65 180)
 			(uuid "e886fa3b-ecd7-449e-a5cc-9ef55f8f3789")
 			(effects
 				(font
@@ -12633,7 +13470,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 318.77 123.19 180)
+			(at 320.04 123.19 180)
 			(uuid "2f9da31c-fc8c-482b-ae56-34e82c239871")
 			(effects
 				(font
@@ -12717,7 +13554,7 @@
 		)
 	)
 	(sheet
-		(at 318.77 105.41)
+		(at 320.04 105.41)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12733,7 +13570,7 @@
 		)
 		(uuid "250a332d-b188-4cb7-8995-d26ce835b8f8")
 		(property "Sheetname" "Transducer Tx 6"
-			(at 318.77 104.6984 0)
+			(at 320.04 104.6984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12744,7 +13581,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 318.77 113.6146 0)
+			(at 320.04 113.6146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12755,7 +13592,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 318.77 107.95 180)
+			(at 320.04 107.95 180)
 			(uuid "52b0be12-e649-4813-a2b3-470256dada40")
 			(effects
 				(font
@@ -12765,7 +13602,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 318.77 110.49 180)
+			(at 320.04 110.49 180)
 			(uuid "d92893b6-5d40-4bf1-9357-fef5e57b71c8")
 			(effects
 				(font
@@ -12783,7 +13620,7 @@
 		)
 	)
 	(sheet
-		(at 261.62 118.11)
+		(at 262.89 118.11)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12799,7 +13636,7 @@
 		)
 		(uuid "309cd792-b8ae-4df3-9cae-21f0b1fcbe46")
 		(property "Sheetname" "Transducer Tx 3"
-			(at 261.62 117.3984 0)
+			(at 262.89 117.3984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12810,7 +13647,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 261.62 126.3146 0)
+			(at 262.89 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12821,7 +13658,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 261.62 120.65 180)
+			(at 262.89 120.65 180)
 			(uuid "97e18d47-532c-4cbb-b0b5-53199848bf0c")
 			(effects
 				(font
@@ -12831,7 +13668,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 261.62 123.19 180)
+			(at 262.89 123.19 180)
 			(uuid "4646bffc-d606-4955-8e80-5605d6bb571b")
 			(effects
 				(font
@@ -12849,7 +13686,7 @@
 		)
 	)
 	(sheet
-		(at 375.92 130.81)
+		(at 377.19 130.81)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12865,7 +13702,7 @@
 		)
 		(uuid "31732dc1-2899-4ea5-ba5b-fb0ba4384d88")
 		(property "Sheetname" "Transducer Tx 12"
-			(at 375.92 130.0984 0)
+			(at 377.19 130.0984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12876,7 +13713,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 375.92 139.0146 0)
+			(at 377.19 139.0146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12887,7 +13724,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 375.92 133.35 180)
+			(at 377.19 133.35 180)
 			(uuid "3f66bddf-0814-4608-ac3c-9211436efd66")
 			(effects
 				(font
@@ -12897,7 +13734,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 375.92 135.89 180)
+			(at 377.19 135.89 180)
 			(uuid "cfb064d9-4fa6-430b-ad65-f874dcc92679")
 			(effects
 				(font
@@ -12915,7 +13752,7 @@
 		)
 	)
 	(sheet
-		(at 261.62 105.41)
+		(at 262.89 105.41)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12931,7 +13768,7 @@
 		)
 		(uuid "36cd61df-802a-499e-8402-bec27221cc97")
 		(property "Sheetname" "Transducer Tx 2"
-			(at 261.62 104.6984 0)
+			(at 262.89 104.6984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12942,7 +13779,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 261.62 113.6146 0)
+			(at 262.89 113.6146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12953,7 +13790,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 261.62 107.95 180)
+			(at 262.89 107.95 180)
 			(uuid "7915d8b4-c965-4cc0-9462-bdf7b5a945f1")
 			(effects
 				(font
@@ -12963,7 +13800,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 261.62 110.49 180)
+			(at 262.89 110.49 180)
 			(uuid "53037d21-8aee-466b-aa59-51e805844bbe")
 			(effects
 				(font
@@ -13027,7 +13864,7 @@
 		)
 	)
 	(sheet
-		(at 261.62 92.71)
+		(at 262.89 92.71)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13043,7 +13880,7 @@
 		)
 		(uuid "480f5a8e-d708-4d69-9949-4aef67ec0738")
 		(property "Sheetname" "Transducer Tx 1"
-			(at 261.62 91.9984 0)
+			(at 262.89 91.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13054,7 +13891,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 261.62 100.9146 0)
+			(at 262.89 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13065,7 +13902,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 261.62 95.25 180)
+			(at 262.89 95.25 180)
 			(uuid "7b7f40bc-bd5f-4efb-beb5-41e84d1399ad")
 			(effects
 				(font
@@ -13075,7 +13912,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 261.62 97.79 180)
+			(at 262.89 97.79 180)
 			(uuid "a94ff86c-1d60-431b-be69-ed115054511b")
 			(effects
 				(font
@@ -13093,7 +13930,7 @@
 		)
 	)
 	(sheet
-		(at 318.77 156.21)
+		(at 320.04 156.21)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13109,7 +13946,7 @@
 		)
 		(uuid "4c1b583f-c035-4d8a-8326-d7a495631c4b")
 		(property "Sheetname" "Transducer Tx 18"
-			(at 318.77 155.4984 0)
+			(at 320.04 155.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13120,7 +13957,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 318.77 164.4146 0)
+			(at 320.04 164.4146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13131,7 +13968,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 318.77 158.75 180)
+			(at 320.04 158.75 180)
 			(uuid "e07b5f51-34ff-4f5e-99c7-02f74b91200d")
 			(effects
 				(font
@@ -13141,7 +13978,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 318.77 161.29 180)
+			(at 320.04 161.29 180)
 			(uuid "b8013c71-45d0-4da1-9ada-0eda977ef5a8")
 			(effects
 				(font
@@ -13225,7 +14062,7 @@
 		)
 	)
 	(sheet
-		(at 318.77 143.51)
+		(at 320.04 143.51)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13241,7 +14078,7 @@
 		)
 		(uuid "5dafd47e-534c-4ff2-8e03-540c80e837ca")
 		(property "Sheetname" "Transducer Tx 17"
-			(at 318.77 142.7984 0)
+			(at 320.04 142.7984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13252,7 +14089,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 318.77 151.7146 0)
+			(at 320.04 151.7146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13263,7 +14100,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 318.77 146.05 180)
+			(at 320.04 146.05 180)
 			(uuid "63f70465-0456-4dc9-9906-d7b86993f582")
 			(effects
 				(font
@@ -13273,7 +14110,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 318.77 148.59 180)
+			(at 320.04 148.59 180)
 			(uuid "f7ddd3b0-1f63-4b81-bcd8-3b5f9de50414")
 			(effects
 				(font
@@ -13423,7 +14260,7 @@
 		)
 	)
 	(sheet
-		(at 375.92 118.11)
+		(at 377.19 118.11)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13439,7 +14276,7 @@
 		)
 		(uuid "7f768895-4c49-45db-894d-c9cf4eb3b2e4")
 		(property "Sheetname" "Transducer Tx 11"
-			(at 375.92 117.3984 0)
+			(at 377.19 117.3984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13450,7 +14287,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 375.92 126.3146 0)
+			(at 377.19 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13461,7 +14298,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 375.92 120.65 180)
+			(at 377.19 120.65 180)
 			(uuid "ffbaf21c-931f-4b67-8317-7ef9fb043b24")
 			(effects
 				(font
@@ -13471,7 +14308,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 375.92 123.19 180)
+			(at 377.19 123.19 180)
 			(uuid "df79f6e8-7a9c-498c-a534-a8b2c32de5f6")
 			(effects
 				(font
@@ -13489,7 +14326,7 @@
 		)
 	)
 	(sheet
-		(at 318.77 92.71)
+		(at 320.04 92.71)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13505,7 +14342,7 @@
 		)
 		(uuid "89320b2a-e018-4c2c-acd4-8ea363929283")
 		(property "Sheetname" "Transducer Tx 5"
-			(at 318.77 91.9984 0)
+			(at 320.04 91.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13516,7 +14353,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 318.77 100.9146 0)
+			(at 320.04 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13527,7 +14364,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 318.77 95.25 180)
+			(at 320.04 95.25 180)
 			(uuid "0d0483cd-b248-4f7b-8c4b-5796b1285ed8")
 			(effects
 				(font
@@ -13537,7 +14374,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 318.77 97.79 180)
+			(at 320.04 97.79 180)
 			(uuid "2734a785-7ae5-4706-9aa2-a49ec34ae244")
 			(effects
 				(font
@@ -13555,7 +14392,7 @@
 		)
 	)
 	(sheet
-		(at 318.77 130.81)
+		(at 320.04 130.81)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13571,7 +14408,7 @@
 		)
 		(uuid "8a377f6f-128b-4b5f-ace6-77e240b50c21")
 		(property "Sheetname" "Transducer Tx 8"
-			(at 318.77 130.0984 0)
+			(at 320.04 130.0984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13582,7 +14419,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 318.77 139.0146 0)
+			(at 320.04 139.0146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13593,7 +14430,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 318.77 133.35 180)
+			(at 320.04 133.35 180)
 			(uuid "a06a5611-0b2d-472a-a4e2-217f00007fae")
 			(effects
 				(font
@@ -13603,7 +14440,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 318.77 135.89 180)
+			(at 320.04 135.89 180)
 			(uuid "3b8033d5-34a8-4495-9052-92a657e810f5")
 			(effects
 				(font
@@ -13621,7 +14458,7 @@
 		)
 	)
 	(sheet
-		(at 261.62 143.51)
+		(at 262.89 143.51)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13637,7 +14474,7 @@
 		)
 		(uuid "8cb24a42-224d-4ed4-9522-15eb3433940d")
 		(property "Sheetname" "Transducer Tx 13"
-			(at 261.62 142.7984 0)
+			(at 262.89 142.7984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13648,7 +14485,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 261.62 151.7146 0)
+			(at 262.89 151.7146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13659,7 +14496,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 261.62 146.05 180)
+			(at 262.89 146.05 180)
 			(uuid "9da25afc-6b34-4b2f-af92-35474998b26b")
 			(effects
 				(font
@@ -13669,7 +14506,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 261.62 148.59 180)
+			(at 262.89 148.59 180)
 			(uuid "2b0c6508-9750-4e50-a2e5-aadfab5c1085")
 			(effects
 				(font
@@ -13687,7 +14524,7 @@
 		)
 	)
 	(sheet
-		(at 261.62 181.61)
+		(at 262.89 181.61)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13703,7 +14540,7 @@
 		)
 		(uuid "8d87f40a-a54f-4c59-9616-36f2a0ac8838")
 		(property "Sheetname" "Transducer Tx 16"
-			(at 261.62 180.8984 0)
+			(at 262.89 180.8984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13714,7 +14551,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 261.62 189.8146 0)
+			(at 262.89 189.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13725,7 +14562,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 261.62 184.15 180)
+			(at 262.89 184.15 180)
 			(uuid "d66ced9c-44e4-4555-a963-8a2279ab7993")
 			(effects
 				(font
@@ -13735,7 +14572,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 261.62 186.69 180)
+			(at 262.89 186.69 180)
 			(uuid "6b80e830-3cbf-4ca7-a821-762760a9737c")
 			(effects
 				(font
@@ -13753,7 +14590,7 @@
 		)
 	)
 	(sheet
-		(at 261.62 168.91)
+		(at 262.89 168.91)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13769,7 +14606,7 @@
 		)
 		(uuid "91659185-c386-4e8b-bc53-4d45396aa0c8")
 		(property "Sheetname" "Transducer Tx 15"
-			(at 261.62 168.1984 0)
+			(at 262.89 168.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13780,7 +14617,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 261.62 177.1146 0)
+			(at 262.89 177.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13791,7 +14628,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 261.62 171.45 180)
+			(at 262.89 171.45 180)
 			(uuid "5e091a23-63a8-492c-9538-d166bc923b35")
 			(effects
 				(font
@@ -13801,7 +14638,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 261.62 173.99 180)
+			(at 262.89 173.99 180)
 			(uuid "cc439177-e448-48b5-851d-f3857688fde3")
 			(effects
 				(font
@@ -13819,7 +14656,7 @@
 		)
 	)
 	(sheet
-		(at 375.92 181.61)
+		(at 377.19 181.61)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13835,7 +14672,7 @@
 		)
 		(uuid "a483e0c5-cbda-44e7-9e23-64cb97d25fda")
 		(property "Sheetname" "Transducer Tx 24"
-			(at 375.92 180.8984 0)
+			(at 377.19 180.8984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13846,7 +14683,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 375.92 189.8146 0)
+			(at 377.19 189.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13857,7 +14694,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 375.92 184.15 180)
+			(at 377.19 184.15 180)
 			(uuid "559efba5-8764-4358-a522-bcde8f2e1cde")
 			(effects
 				(font
@@ -13867,7 +14704,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 375.92 186.69 180)
+			(at 377.19 186.69 180)
 			(uuid "2bf081f4-3857-4112-a085-a7f879706265")
 			(effects
 				(font
@@ -13885,7 +14722,7 @@
 		)
 	)
 	(sheet
-		(at 375.92 143.51)
+		(at 377.19 143.51)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13901,7 +14738,7 @@
 		)
 		(uuid "b3fda7ce-1fc5-425a-8ccd-92f8139a987a")
 		(property "Sheetname" "Transducer Tx 21"
-			(at 375.92 142.7984 0)
+			(at 377.19 142.7984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13912,7 +14749,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 375.92 151.7146 0)
+			(at 377.19 151.7146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13923,7 +14760,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 375.92 146.05 180)
+			(at 377.19 146.05 180)
 			(uuid "2aa9a145-1ee7-4b33-9523-d5522157c35e")
 			(effects
 				(font
@@ -13933,7 +14770,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 375.92 148.59 180)
+			(at 377.19 148.59 180)
 			(uuid "a98de22c-8ceb-498a-9ac6-0e2b1d516ee0")
 			(effects
 				(font
@@ -13951,7 +14788,7 @@
 		)
 	)
 	(sheet
-		(at 375.92 156.21)
+		(at 377.19 156.21)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13967,7 +14804,7 @@
 		)
 		(uuid "c1fdafa5-b957-4e7f-86c8-b085850f6e7f")
 		(property "Sheetname" "Transducer Tx 22"
-			(at 375.92 155.4984 0)
+			(at 377.19 155.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13978,7 +14815,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 375.92 164.4146 0)
+			(at 377.19 164.4146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13989,7 +14826,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 375.92 158.75 180)
+			(at 377.19 158.75 180)
 			(uuid "95c0c090-681a-4aa0-bf1b-6bb295eff240")
 			(effects
 				(font
@@ -13999,7 +14836,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 375.92 161.29 180)
+			(at 377.19 161.29 180)
 			(uuid "cda7ebb3-7dab-4d9e-ac21-614d50345f45")
 			(effects
 				(font
@@ -14017,7 +14854,7 @@
 		)
 	)
 	(sheet
-		(at 261.62 130.81)
+		(at 262.89 130.81)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14033,7 +14870,7 @@
 		)
 		(uuid "ca3d31e5-fadc-427c-a898-e558300f18bd")
 		(property "Sheetname" "Transducer Tx 4"
-			(at 261.62 130.0984 0)
+			(at 262.89 130.0984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14044,7 +14881,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 261.62 139.0146 0)
+			(at 262.89 139.0146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14055,7 +14892,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 261.62 133.35 180)
+			(at 262.89 133.35 180)
 			(uuid "5e390108-19d9-426e-9098-96d8a3a2efe5")
 			(effects
 				(font
@@ -14065,7 +14902,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 261.62 135.89 180)
+			(at 262.89 135.89 180)
 			(uuid "7a783664-6195-4694-8d1d-5c48cac9221b")
 			(effects
 				(font
@@ -14083,7 +14920,7 @@
 		)
 	)
 	(sheet
-		(at 375.92 168.91)
+		(at 377.19 168.91)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14099,7 +14936,7 @@
 		)
 		(uuid "d604a55d-7315-46ed-a5e1-a21ab4cf1ed4")
 		(property "Sheetname" "Transducer Tx 23"
-			(at 375.92 168.1984 0)
+			(at 377.19 168.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14110,7 +14947,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 375.92 177.1146 0)
+			(at 377.19 177.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14121,7 +14958,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 375.92 171.45 180)
+			(at 377.19 171.45 180)
 			(uuid "822433f7-8076-4570-aaa5-b5b7a66c3aab")
 			(effects
 				(font
@@ -14131,7 +14968,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 375.92 173.99 180)
+			(at 377.19 173.99 180)
 			(uuid "786892ed-e7ec-45f4-b5e5-527d650a58dc")
 			(effects
 				(font
@@ -14215,7 +15052,7 @@
 		)
 	)
 	(sheet
-		(at 261.62 156.21)
+		(at 262.89 156.21)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14231,7 +15068,7 @@
 		)
 		(uuid "df4cb036-d18e-413a-a3e6-d13ab0408350")
 		(property "Sheetname" "Transducer Tx 14"
-			(at 261.62 155.4984 0)
+			(at 262.89 155.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14242,7 +15079,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 261.62 164.4146 0)
+			(at 262.89 164.4146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14253,7 +15090,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 261.62 158.75 180)
+			(at 262.89 158.75 180)
 			(uuid "4b23f8db-4cf8-4a55-846c-681e5a30cd64")
 			(effects
 				(font
@@ -14263,7 +15100,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 261.62 161.29 180)
+			(at 262.89 161.29 180)
 			(uuid "dc873ade-a062-4289-ad69-11e8aa1a0289")
 			(effects
 				(font
@@ -14281,7 +15118,7 @@
 		)
 	)
 	(sheet
-		(at 318.77 168.91)
+		(at 320.04 168.91)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14297,7 +15134,7 @@
 		)
 		(uuid "e5ee5ce9-d125-4442-a941-ebf38866bdb4")
 		(property "Sheetname" "Transducer Tx 19"
-			(at 318.77 168.1984 0)
+			(at 320.04 168.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14308,7 +15145,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 318.77 177.1146 0)
+			(at 320.04 177.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14319,7 +15156,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 318.77 171.45 180)
+			(at 320.04 171.45 180)
 			(uuid "a8fa489a-7eb8-46b5-8fcb-9d85c19d4718")
 			(effects
 				(font
@@ -14329,7 +15166,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 318.77 173.99 180)
+			(at 320.04 173.99 180)
 			(uuid "d272fc69-afbd-49f4-924f-13bac652a24f")
 			(effects
 				(font
@@ -14347,7 +15184,7 @@
 		)
 	)
 	(sheet
-		(at 375.92 92.71)
+		(at 377.19 92.71)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14363,7 +15200,7 @@
 		)
 		(uuid "e950f202-7178-4b6d-8e63-ef3e469294aa")
 		(property "Sheetname" "Transducer Tx 9"
-			(at 375.92 91.9984 0)
+			(at 377.19 91.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14374,7 +15211,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 375.92 100.9146 0)
+			(at 377.19 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14385,7 +15222,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 375.92 95.25 180)
+			(at 377.19 95.25 180)
 			(uuid "aa37880f-0c9c-488c-9d1d-c3c5590cd225")
 			(effects
 				(font
@@ -14395,7 +15232,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 375.92 97.79 180)
+			(at 377.19 97.79 180)
 			(uuid "96111436-fe59-4a0e-a3a5-bcbf553e25ec")
 			(effects
 				(font
@@ -14479,7 +15316,7 @@
 		)
 	)
 	(sheet
-		(at 375.92 105.41)
+		(at 377.19 105.41)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14495,7 +15332,7 @@
 		)
 		(uuid "ff33492a-e054-4931-bab9-bb19b684453b")
 		(property "Sheetname" "Transducer Tx 10"
-			(at 375.92 104.6984 0)
+			(at 377.19 104.6984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14506,7 +15343,7 @@
 			)
 		)
 		(property "Sheetfile" "transducer.kicad_sch"
-			(at 375.92 113.6146 0)
+			(at 377.19 113.6146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14517,7 +15354,7 @@
 			)
 		)
 		(pin "HIN" input
-			(at 375.92 107.95 180)
+			(at 377.19 107.95 180)
 			(uuid "5ab8d679-9e30-4507-b9e8-154436d69a98")
 			(effects
 				(font
@@ -14527,7 +15364,7 @@
 			)
 		)
 		(pin "~{LIN}" input
-			(at 375.92 110.49 180)
+			(at 377.19 110.49 180)
 			(uuid "8688a5c4-fbf2-4ff8-bbea-6ce097034a2b")
 			(effects
 				(font
