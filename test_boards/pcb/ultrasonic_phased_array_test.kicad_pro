@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -640,6 +640,66 @@
           "label": "Vendor Part Number",
           "name": "Vendor Part Number",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PRICE",
+          "name": "PRICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IS SW",
+          "name": "IS SW",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -649,7 +709,39 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "FPGA_SIGNALS": [
+        "TX1_HIN",
+        "TX2_HIN",
+        "TX3_HIN",
+        "TX4_HIN",
+        "TX5_HIN",
+        "TX6_HIN",
+        "TX7_HIN",
+        "TX8_HIN",
+        "TX9_HIN",
+        "TX10_HIN",
+        "TX11_HIN",
+        "TX12_HIN",
+        "TX13_HIN",
+        "TX14_HIN",
+        "TX15_HIN",
+        "TX16_HIN",
+        "TX17_HIN",
+        "TX18_HIN",
+        "TX19_HIN",
+        "TX20_HIN",
+        "TX21_HIN",
+        "TX22_HIN",
+        "TX23_HIN",
+        "TX24_HIN",
+        "RX_AFE_EN",
+        "ADC_SCK",
+        "ADC_DIN",
+        "ADC_SDO",
+        "ADC_CNV"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -690,7 +782,7 @@
         "uuid": "ce178b1f-92b9-41c6-bd69-904e3992cd65"
       }
     ],
-    "used_designators": "J1-2,R1-89,D1-24,C1-158,U1-43,Q1-48,#PWR1-321,LS1-30",
+    "used_designators": "#FLG1-11,J1-2,R1-155,D1-38,C1-175,U1-45,Q1-48,#PWR1-358,LS1-30",
     "variants": []
   },
   "sheets": [
