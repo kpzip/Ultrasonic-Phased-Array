@@ -4273,7 +4273,7 @@
 		)
 		(uuid "0c2accff-ee72-4c78-aad9-e19ccb94bf8f")
 	)
-	(text "TODO\n140V trace spacing\nSeparate Rx Signal path GND\nChange 5V zener to 5.6V or SMAJ5.0A\nChange bulk decoupling to aluminum polymer\nFootprints for everything\npotentially use 1N4148W for bootstrap diode\nInvestigate Log out RC filter\nInvestigate AFE input series resistor\nADC Decoupling 10uF and 100nF on adc side of resistor\nAdd extra copy of some circuitry for testing"
+	(text "TODO\n140V trace spacing\nSeparate Rx Signal path GND\n\nFootprints for everything\npotentially use 1N4148W for bootstrap diode\nInvestigate Log out RC filter\nInvestigate AFE input series resistor\nADC Decoupling 10uF and 100nF on adc side of resistor\nAdd extra copy of some circuitry for testing"
 		(exclude_from_sim no)
 		(at 206.756 68.58 0)
 		(effects

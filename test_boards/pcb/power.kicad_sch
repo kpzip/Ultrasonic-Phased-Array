@@ -584,6 +584,186 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_US"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
@@ -922,6 +1102,160 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SMAJ5.0A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ5.0A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMAJ5.0A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ5.0A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2768,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 77.47) (xy 115.57 74.93)
+			(xy 119.38 77.47) (xy 119.38 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3238,7 +3572,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 77.47) (xy 115.57 77.47)
+			(xy 107.95 77.47) (xy 119.38 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3298,7 +3632,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 64.77) (xy 115.57 67.31)
+			(xy 119.38 64.77) (xy 119.38 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3718,7 +4052,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 64.77) (xy 115.57 64.77)
+			(xy 107.95 64.77) (xy 119.38 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4405,8 +4739,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 31.75 36.83 180)
+		(lib_id "Device:C_Polarized_US")
+		(at 31.75 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4416,7 +4750,7 @@
 		(dnp no)
 		(uuid "02abc29f-90f0-4f64-b321-def1c74fc177")
 		(property "Reference" "C165"
-			(at 23.114 35.56 0)
+			(at 40.386 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4427,7 +4761,7 @@
 			)
 		)
 		(property "Value" "470μF"
-			(at 23.114 38.1 0)
+			(at 40.386 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4437,8 +4771,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 30.7848 33.02 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
+			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4459,7 +4793,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4470,7 +4804,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "KF471M20022*36A"
 			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4481,7 +4815,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Digi-Key"
+		(property "Vendor" "LCSC"
 			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4492,7 +4826,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C2684459"
 			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4597,8 +4931,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 31.75 71.12 180)
+		(lib_id "Device:C_Polarized_US")
+		(at 31.75 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4608,7 +4942,7 @@
 		(dnp no)
 		(uuid "066455c8-54a9-49fa-9f61-87be285ca4ce")
 		(property "Reference" "C166"
-			(at 23.114 69.85 0)
+			(at 40.386 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4619,7 +4953,7 @@
 			)
 		)
 		(property "Value" "470μF"
-			(at 23.114 72.39 0)
+			(at 40.386 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4629,8 +4963,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 30.7848 67.31 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
+			(at 31.75 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4651,7 +4985,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 31.75 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4662,7 +4996,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "KF471M20022*36A"
 			(at 31.75 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4673,7 +5007,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Digi-Key"
+		(property "Vendor" "LCSC"
 			(at 31.75 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4684,7 +5018,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C2684459"
 			(at 31.75 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4790,7 +5124,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 95.25 71.12 180)
+		(at 95.25 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4800,7 +5134,7 @@
 		(dnp no)
 		(uuid "0b358c69-d6ad-48d4-8af7-f6e99d4a3fe7")
 		(property "Reference" "C171"
-			(at 86.614 69.85 0)
+			(at 103.886 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4811,7 +5145,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 86.614 72.39 0)
+			(at 103.886 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4822,7 +5156,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 94.2848 67.31 0)
+			(at 96.2152 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4981,8 +5315,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 69.85 36.83 180)
+		(lib_id "Device:C_Polarized_US")
+		(at 69.85 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4992,7 +5326,7 @@
 		(dnp no)
 		(uuid "0f025e02-5348-4a82-bddc-94b506890be4")
 		(property "Reference" "C161"
-			(at 61.214 35.56 0)
+			(at 78.486 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5003,7 +5337,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 61.214 38.1 0)
+			(at 78.486 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5013,8 +5347,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 68.8848 33.02 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.5"
+			(at 69.85 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5035,7 +5369,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 69.85 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5046,7 +5380,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "HU2G100M-CRG12"
 			(at 69.85 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5057,7 +5391,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Digi-Key"
+		(property "Vendor" "LCSC"
 			(at 69.85 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5068,7 +5402,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C117830"
 			(at 69.85 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5594,7 +5928,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 71.12 180)
+		(at 44.45 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5604,7 +5938,7 @@
 		(dnp no)
 		(uuid "27165a9f-139a-499f-a054-34c191a76870")
 		(property "Reference" "C167"
-			(at 35.814 69.85 0)
+			(at 53.086 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5615,7 +5949,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 35.814 72.39 0)
+			(at 53.086 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5626,7 +5960,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 43.4848 67.31 0)
+			(at 45.4152 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6020,7 +6354,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.95 71.12 180)
+		(at 107.95 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6030,7 +6364,7 @@
 		(dnp no)
 		(uuid "35c7252b-c9fe-422a-aad5-3fcd105f1f96")
 		(property "Reference" "C172"
-			(at 99.314 69.85 0)
+			(at 116.586 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6041,7 +6375,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 99.314 72.39 0)
+			(at 116.586 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6052,7 +6386,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 106.9848 67.31 0)
+			(at 108.9152 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6211,8 +6545,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 107.95 36.83 180)
+		(lib_id "Device:C_Polarized_US")
+		(at 107.95 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6222,7 +6556,7 @@
 		(dnp no)
 		(uuid "36df4a8c-d3ca-4218-93ce-938ce1372156")
 		(property "Reference" "C164"
-			(at 99.314 35.56 0)
+			(at 116.586 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6233,7 +6567,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 99.314 38.1 0)
+			(at 116.586 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6243,8 +6577,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.9848 33.02 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.5"
+			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6265,7 +6599,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6276,7 +6610,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "HU2G100M-CRG12"
 			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6287,7 +6621,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Digi-Key"
+		(property "Vendor" "LCSC"
 			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6298,7 +6632,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C117830"
 			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6319,121 +6653,6 @@
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65/3f09ed71-fff5-410d-863d-e4744c1ec4ff"
 					(reference "C164")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 166.37 36.83 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d2cc03a-ad88-4f9d-929f-e6bee430e25d")
-		(property "Reference" "D26"
-			(at 168.91 35.5599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1V"
-			(at 168.91 38.0999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 166.37 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 166.37 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "1SMB5918BT3G"
-			(at 166.37 36.83 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 166.37 36.83 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "1SMB5918BT3GOSCT-ND"
-			(at 166.37 36.83 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8a4b976f-fc57-4750-a7c0-aea4485d8ead")
-		)
-		(pin "2"
-			(uuid "24a571a8-8521-4756-af23-d9d16228bf0b")
-		)
-		(instances
-			(project "ultrasonic_phased_array_test"
-				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65/3f09ed71-fff5-410d-863d-e4744c1ec4ff"
-					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -6633,120 +6852,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 57.15 71.12 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4779bf6c-aece-4269-8c14-efe8a7e2deb4")
-		(property "Reference" "C168"
-			(at 48.514 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10μF"
-			(at 48.514 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 56.1848 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 57.15 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 57.15 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 57.15 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" ""
-			(at 57.15 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81e88635-8f37-4876-b2ab-82faec694cfe")
-		)
-		(pin "2"
-			(uuid "a50bc27b-f7f8-4727-b704-2340e8fa4b6a")
-		)
-		(instances
-			(project "ultrasonic_phased_array_test"
-				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65/3f09ed71-fff5-410d-863d-e4744c1ec4ff"
-					(reference "C168")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 105.41 120.65 90)
 		(unit 1)
 		(body_style 1)
@@ -6854,6 +6959,120 @@
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65/3f09ed71-fff5-410d-863d-e4744c1ec4ff"
 					(reference "C156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57.15 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e6c2ad5-4a27-44c7-892c-fd7c70fac819")
+		(property "Reference" "C176"
+			(at 65.786 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10μF"
+			(at 65.786 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 58.1152 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 57.15 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 57.15 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 57.15 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2be110ca-29c9-4e37-b5c9-9fabf9ba68aa")
+		)
+		(pin "2"
+			(uuid "6539d137-b0d9-421a-ae6e-05de797e2a6c")
+		)
+		(instances
+			(project "ultrasonic_phased_array_test"
+				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65/3f09ed71-fff5-410d-863d-e4744c1ec4ff"
+					(reference "C176")
 					(unit 1)
 				)
 			)
@@ -7028,7 +7247,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 115.57 71.12 270)
+		(at 119.38 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7039,7 +7258,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bf12698-a434-420c-accc-f3e0327895bb")
 		(property "Reference" "D25"
-			(at 118.11 69.8499 90)
+			(at 121.92 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7050,7 +7269,7 @@
 			)
 		)
 		(property "Value" "20V"
-			(at 118.11 72.3899 90)
+			(at 121.92 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7061,7 +7280,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 115.57 71.12 0)
+			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7072,7 +7291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 71.12 0)
+			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7083,7 +7302,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 115.57 71.12 0)
+			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7094,7 +7313,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "1SMB5932BT3G"
-			(at 115.57 71.12 90)
+			(at 119.38 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7105,7 +7324,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 115.57 71.12 90)
+			(at 119.38 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7116,7 +7335,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1SMB5932BT3GOSCT-ND"
-			(at 115.57 71.12 90)
+			(at 119.38 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7991,8 +8210,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 57.15 36.83 180)
+		(lib_id "Device:C_Polarized_US")
+		(at 57.15 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8002,7 +8221,7 @@
 		(dnp no)
 		(uuid "7d908bca-0c88-4c8f-9bf1-03cb3ebff7ca")
 		(property "Reference" "C160"
-			(at 48.514 35.56 0)
+			(at 65.786 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8013,7 +8232,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 48.514 38.1 0)
+			(at 65.786 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8023,8 +8242,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 56.1848 33.02 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.5"
+			(at 57.15 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8045,7 +8264,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 57.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8056,7 +8275,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "HU2G100M-CRG12"
 			(at 57.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8067,7 +8286,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Digi-Key"
+		(property "Vendor" "LCSC"
 			(at 57.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8078,7 +8297,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C117830"
 			(at 57.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8218,8 +8437,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 95.25 36.83 180)
+		(lib_id "Device:C_Polarized_US")
+		(at 95.25 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8229,7 +8448,7 @@
 		(dnp no)
 		(uuid "7f5533bc-40e1-40a1-959a-ea6bb9e83449")
 		(property "Reference" "C163"
-			(at 86.614 35.56 0)
+			(at 103.886 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8240,7 +8459,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 86.614 38.1 0)
+			(at 103.886 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8250,8 +8469,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 94.2848 33.02 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.5"
+			(at 95.25 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8272,7 +8491,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 95.25 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8283,7 +8502,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "HU2G100M-CRG12"
 			(at 95.25 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8294,7 +8513,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Digi-Key"
+		(property "Vendor" "LCSC"
 			(at 95.25 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8305,7 +8524,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C117830"
 			(at 95.25 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9448,7 +9667,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 82.55 71.12 180)
+		(at 82.55 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9458,7 +9677,7 @@
 		(dnp no)
 		(uuid "ad0c9577-b48e-4c7f-8490-0cd12d0ead82")
 		(property "Reference" "C170"
-			(at 73.914 69.85 0)
+			(at 91.186 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9469,7 +9688,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 73.914 72.39 0)
+			(at 91.186 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9480,7 +9699,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 81.5848 67.31 0)
+			(at 83.5152 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9640,7 +9859,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 71.12 180)
+		(at 69.85 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9650,7 +9869,7 @@
 		(dnp no)
 		(uuid "b0b89c77-b586-4902-aba8-d5ba4f242efb")
 		(property "Reference" "C169"
-			(at 61.214 69.85 0)
+			(at 78.486 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9661,7 +9880,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 61.214 72.39 0)
+			(at 78.486 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9672,7 +9891,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 68.8848 67.31 0)
+			(at 70.8152 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9831,8 +10050,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 82.55 36.83 180)
+		(lib_id "Device:C_Polarized_US")
+		(at 82.55 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9842,7 +10061,7 @@
 		(dnp no)
 		(uuid "bd171e65-7734-4bbd-9e78-23a9ad06fe30")
 		(property "Reference" "C162"
-			(at 73.914 35.56 0)
+			(at 91.186 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9853,7 +10072,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 73.914 38.1 0)
+			(at 91.186 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9863,8 +10082,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 81.5848 33.02 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.5"
+			(at 82.55 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9885,7 +10104,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 82.55 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9896,7 +10115,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "HU2G100M-CRG12"
 			(at 82.55 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9907,7 +10126,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Digi-Key"
+		(property "Vendor" "LCSC"
 			(at 82.55 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9918,7 +10137,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C117830"
 			(at 82.55 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10207,6 +10426,121 @@
 			(project "ultrasonic_phased_array_test"
 				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65/3f09ed71-fff5-410d-863d-e4744c1ec4ff"
 					(reference "C153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ5.0A")
+		(at 166.37 36.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4e1e833-335d-4ea8-a33c-0a43886d56c6")
+		(property "Reference" "D26"
+			(at 168.91 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ5.0A"
+			(at 168.91 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 161.29 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 166.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 166.37 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SMAJ5.0A"
+			(at 166.37 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 166.37 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C5189780"
+			(at 166.37 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5568e9b6-cb6e-452d-b3c7-42b992aaeb5b")
+		)
+		(pin "2"
+			(uuid "1cf0d68c-043d-4976-957a-eac67d349f82")
+		)
+		(instances
+			(project "ultrasonic_phased_array_test"
+				(path "/ce178b1f-92b9-41c6-bd69-904e3992cd65/3f09ed71-fff5-410d-863d-e4744c1ec4ff"
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -10723,8 +11057,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 44.45 36.83 180)
+		(lib_id "Device:C_Polarized_US")
+		(at 44.45 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10734,7 +11068,7 @@
 		(dnp no)
 		(uuid "ebc5d21b-8996-42e4-a02e-0e00c90dae85")
 		(property "Reference" "C159"
-			(at 35.814 35.56 0)
+			(at 53.086 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10745,7 +11079,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 35.814 38.1 0)
+			(at 53.086 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10755,8 +11089,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 43.4848 33.02 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.5"
+			(at 44.45 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10777,7 +11111,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 44.45 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10788,7 +11122,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "HU2G100M-CRG12"
 			(at 44.45 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10799,7 +11133,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Digi-Key"
+		(property "Vendor" "LCSC"
 			(at 44.45 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10810,7 +11144,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C117830"
 			(at 44.45 36.83 0)
 			(hide yes)
 			(show_name no)
